@@ -1,0 +1,267 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #EDF3F4;
+    font-family: 'Poppins', sans-serif;     
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    text-align: center;
+    color: #0E345A;
+    background-color: #EDF3F4;
+    font-family: 'Roboto Slab', serif;
+}
+
+.jumbotron p{
+    margin-bottom: -30px;
+}
+
+.wedget__titl {
+    margin: 14px 0 20px 16px;
+    color: #222222;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.wedget_categories ul li {
+    margin: 10px 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+    a:hover, a:active, a:focus {
+        text-decoration: none;
+        color: #E59285;
+    }    
+
+ul {
+    list-style:none;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.carousel-caption {
+    right: 15%;
+    bottom: 31%;
+    left: 9%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #3C3C3C;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+    .carousel-caption h2 {
+        max-width: 620px;
+        font-size: 62px;
+        line-height: 1.1;
+    }
+
+        .carousel-caption h2 span {
+            color: #e59285;
+        }
+
+.section_title h2 span {
+    color: #e59285;
+}
+
+.product_price_box h2{
+    text-align:center;
+    font-size:1em;
+}
+
+.product_price_box .price {
+    text-align: center;
+    font-size: 20px;
+}
+
+.product_price_box p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.details_page {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 11px;
+    width: 23%;
+    margin-top: 10px;
+}
+
+.shopping_slidebar {
+    margin-top:10px;
+    width: 94%; 
+}
+
+.section_title {
+    margin: 0px auto;
+    max-width: 650px;
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .slider__content h2 {
+        font-size: 62px;
+        line-height: 1.1;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .slider__content h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .slider__content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .slider__content h2 {
+        font-size: 56px;
+    }
+}
+
+
+
+
+/* Make .svg files in the carousel display properly in older browsers */
+/*.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}*/
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
+}
+
+.my-carousel {
+    margin-top: -120px;
+}
+
+.navbar {
+    background: #2f2b35;
+    border: none;
+}
+
+.books-search {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.form-group {
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+
+.books-search .form-control {
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    background: #edf3f4;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 20px;
+    width: 250px;
+    text-align: left;
+}
+
+.books-search .btn {
+    border-color: #2f2b35;
+    color: #ffffff;
+    background: #2f2b35;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.caret {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    color: #28cdf0;
+    line-height: 34px;
+}
+
+.details_page img{
+    height: 258px;
+    width: 177px;
+}
+
+.product_home_page img{
+    height: 356px;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.book-btn {
+    position: absolute;
+    top: 37%;
+    right: 0;
+    background: #F09D51;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    transform: translateX(101%);
+    cursor: pointer;
+}
+
+.book-btn:hover{
+    color: #fff;
+}
+
+.fa-shooping-cart{
+    margin-right: 0.5rem;
+}
+
+.img-container:hover .book-btn{
+    transform: translateX(0);
+}
+
+.img-container:hover .product-img{
+    opacity: 0.5;
+}
+
+
+.product-img{
+    display: block;
+    width: 100%;
+    min-height: 12rem;
+    transition: all 0.3s linear;
+}
+
+.price {
+    color: #e59285;
+}

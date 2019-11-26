@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ContosoUniversity.Models.OrderDetail>
+
+@{
+    ViewData["Title"] = "Index";
+    decimal total = 0;
+}
+
+<h2>Index</h2>
+
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <div class="row" style="border-bottom: solid 1px #ccc; padding: 10px">
+            <div class="col-sm-12 col-lg-2" style="text-align:center">
+                <img src="~/images/@item.Book.Image" style="width: 120px" />
+            </div>
+
+            <div class="col-sm-12 col-lg-6">
+                <ul>
+                    <li style="color: #0066C0; font-weight:bold">@item.Book.Name</li>
+                    <li style="color: #739900"><span class="glyphicon glyphicon-ok"></span> In Stock</li>
+                    <li>Order <span style="font-weight: bold">now</span> and it ships <span style="font-weight: bold">tomorrow</span>!</li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-lg-2" style="text-align: right">
+                <a asp-action="RemoveFromCart" asp-controller="ShoppingCart" asp-route-id="@item.Book.ID"><span class="glyphicon glyphicon-minus-sign"></span></a>
+                <span>@item.Quantity</span>
+                <a asp-action="AddToCartButton" asp-controller="ShoppingCart" asp-route-id="@item.Book.ID"><span class="glyphicon glyphicon-plus-sign"></span></a>
+            </div>
+
+            <div class="col-sm-12 col-lg-2" style="text-align: right; color: #E84F05; font-weight: bold">
+                NZD @item.Book.Price
+                @{
+                    total += item.Book.Price;
+                }
+            </div>
+        </div>
+    }
+    @{ 
+        decimal gst = (total * 15) / 100;
+        decimal subTotal = total + gst;
+    }
+    <div class="row" style="text-align:right">
+        <div class="col-sm-12 col-lg-10" style="font-weight: bold">
+            <ul>
+                <li>Sub Price :</li>
+                <li>GST (15%) :</li>
+                <li>Total Price :</li>
+            </ul>
+        </div>
+        <div class="col-sm-12 col-lg-2">
+            <ul style="color: #E84F05; font-weight: bold">
+                <li>NZD @total</li>
+                <li>NZD @gst</li>
+                <li>NZD @subTotal</li>
+            </ul>
+            <a class="btn btn-success" asp-action="Create" asp-controller="Orders">
+                Checkout <span class="glyphicon glyphicon-step-forward"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+

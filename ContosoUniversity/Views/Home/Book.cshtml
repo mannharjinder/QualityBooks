@@ -1,0 +1,99 @@
+﻿@model ContosoUniversity.Models.SuppliersCategoriesBooksViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="jumbotron">
+    
+    <h1>Our Collection</h1>
+</div>
+
+@Html.Partial("_Search")
+
+<div class="books">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="shopping_slidebar thumbnail">
+                <aside class="wedget_categories">
+                    <h3 class="wedget__titl">Categories</h3>
+                    <ul>
+                        <li><a asp-action="Book">All Categories</a></li>
+                        @foreach (var item in Model.Categories)
+                        {
+                            <li>                                
+                                <a asp-action="Book"
+                                   asp-route-category=@item.Name>@Html.DisplayFor(modelItem => item.Name)</a>
+                            </li>
+                        }
+                    </ul>
+                </aside>
+            </div>
+            <div class="shopping_slidebar thumbnail">
+                <aside class="wedget_categories">
+                    <h3 class="wedget__titl">Authors</h3>
+                    <ul>
+                        <li><a asp-action="Book">All Authors</a></li>
+                        @foreach (var item in Model.Suppliers)
+                        {
+                            <li>
+                                <a asp-action="Book"
+                                   asp-route-supplier=@item.Name>@Html.DisplayFor(itemModel => item.Name)</a>
+                            </li>
+                        }
+                    </ul>
+                </aside>
+            </div>
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="row">
+                @foreach (var item in Model.Books)
+                {
+                <div class="img-container product_price_box details_page thumbnail col-lg-3 col-md-3 col-sm-3" style="text-align: center">
+                    <img src="~/images/@Html.DisplayFor(modelItem => item.Image)" alt="@Html.DisplayFor(modelItem => item.Image)" class="product-img" />
+                    <h2 class="book_title">@Html.DisplayFor(modelItem => item.Name)</h2>
+                    <h2 class="price">$ @Html.DisplayFor(modelItem => item.Price)</h2>
+                    <button class="btn btn-success glyphicon glyphicon-shopping-cart book-btn fa-shoopping-cart" role="button" id="@item.ID"> Add to cart</button>                    
+                    <!--<button class="book-btn" data-id="1"><i class="fa-shoopping-cart">Add to bag</i></button>-->
+                </div>
+                }
+            </div>
+
+            @{
+                var preDisabled = !Model.HasPreviousPage ? "disabled" : "";
+                var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+            }
+            <div style="text-align:center">
+                <ul class="pagination pagination-lg">
+                    <li class="page-item">
+                        <a asp-action="Book"
+                           asp-route-pageNumber="@(Model.PageIndex -1)"
+                           asp-route-category="@ViewData["Category"]"
+                           asp-route-supplier="@ViewData["Supplier"]"
+                           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                           class="btn-primary btn @preDisabled">Previous</a>
+                    </li>
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="page-item">
+                            <a asp-action="Book"
+                               asp-route-pageNumber=@i
+                               asp-route-category="@ViewData["Category"]"
+                               asp-route-supplier="@ViewData["Supplier"]"
+                               asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                               class="page-link">@i</a>
+                        </li>
+                    }
+                    <li class="page-item ">
+                        <a asp-action="Book"
+                           asp-route-pageNumber="@(Model.PageIndex +1)"
+                           asp-route-category="@ViewData["Category"]"
+                           asp-route-supplier="@ViewData["Supplier"]"
+                           asp-route-currentFilter="@ViewData["CurrentFilter"]"
+                           class="btn-primary btn @nextDisabled">Next</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

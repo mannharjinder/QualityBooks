@@ -1,0 +1,12 @@
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.deps.json
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.json
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.runtimeconfig.dev.json
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.dll
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\ContosoUniversity.pdb
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csproj.CoreCompileInputs.cache
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfoInputs.cache
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.AssemblyInfo.cs
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.dll
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.pdb
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\ContosoUniversity.csprojAssemblyReference.cache

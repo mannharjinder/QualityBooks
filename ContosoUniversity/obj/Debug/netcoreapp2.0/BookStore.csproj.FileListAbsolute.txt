@@ -1,0 +1,23 @@
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.deps.json
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.runtimeconfig.json
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.runtimeconfig.dev.json
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.dll
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.pdb
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.csproj.CoreCompileInputs.cache
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.AssemblyInfoInputs.cache
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.AssemblyInfo.cs
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.dll
+d:\Unitec\ISCG7420 - Web Application Development\Ass1\SourceTree\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.pdb
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.deps.json
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.runtimeconfig.json
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.runtimeconfig.dev.json
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.dll
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\bin\Debug\netcoreapp2.0\BookStore.pdb
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.csprojAssemblyReference.cache
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.csproj.CoreCompileInputs.cache
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.AssemblyInfoInputs.cache
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.AssemblyInfo.cs
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.dll
+C:\Users\harjinder\source\repos\ContosoUniversity\ContosoUniversity\obj\Debug\netcoreapp2.0\BookStore.pdb
